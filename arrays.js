@@ -43,3 +43,8 @@ function destructivelyRemoveElementFromEndOfArray(array){
   array.pop();
   return array;
 }
+
+function removeElementFromEndOfArray(array){
+  var shortArray = array.slice(0, array.length -1);
+  console.log(shortArray);
+}
