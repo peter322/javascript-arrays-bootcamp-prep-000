@@ -23,3 +23,14 @@ function destructivelyAddElementToEndOfArray(myArray, addThis){
   arrayStart.push(addThis);
   return arrayStart;
 }
+
+function accessElementInArray(array, indexit){
+  var findit = array[indexit];
+  return findit;
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  var shifted = array;
+  shifted.shift();
+  return shifted;
+}
